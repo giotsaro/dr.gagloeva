@@ -2,10 +2,91 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+
+    <!-- ✅ Canonical და Hreflang -->
+    <link rel="canonical" href="https://dr-gagloeva.com" />
+    <link rel="alternate" href="https://dr-gagloeva.com/" hreflang="en" />
+    <link rel="alternate" href="https://dr-gagloeva.com/ru" hreflang="ru" />
+    <link rel="alternate" href="https://dr-gagloeva.com" hreflang="x-default" />
+
+    <!-- ✅ English SEO -->
+    <title>Dr. Anna Gagloeva — Dentist in Russia | Dental Therapy & Surgery</title>
+    <meta
+      name="description"
+      content="Professional dentist Dr. Anna Gagloeva — specialist in dental therapy and surgery. Book your appointment for quality dental care in Russia."
+    />
+    <meta
+      name="keywords"
+      content="Dr Anna Gagloeva, dentist, dental surgeon, teeth, therapy, Russia, Moscow, dental clinic, dental care"
+    />
+    <meta name="author" content="Dr. Anna Gagloeva" />
+
+    <!-- ✅ Russian SEO -->
+    <meta name="description:ru" content="Профессиональный стоматолог Анна Гаглоева — специалист в области терапии и хирургии. Запишитесь на приём для качественного лечения зубов в России." />
+    <meta name="keywords:ru" content="Анна Гаглоева, стоматолог, стоматолог-терапевт, стоматолог-хирург, зубы, стоматология, Россия, лечение зубов" />
+
+    <!-- ✅ Open Graph -->
+    <meta property="og:title" content="Dr. Anna Gagloeva — Dentist in Russia" />
+    <meta property="og:title:ru" content="Др. Анна Гаглоева — Стоматолог в России" />
+    <meta
+      property="og:description"
+      content="High-quality dental care by Dr. Anna Gagloeva — expert in therapy and surgery."
+    />
+    <meta
+      property="og:description:ru"
+      content="Качественная стоматологическая помощь от доктора Анны Гаглоевой — специалиста по терапии и хирургии."
+    />
+    <meta property="og:image" content="/images/og-image.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://dr-gagloeva.com" />
+
+    <!-- ✅ Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Dr. Anna Gagloeva — Dentist in Russia" />
+    <meta name="twitter:title:ru" content="Др. Анна Гаглоева — Стоматолог в России" />
+    <meta
+      name="twitter:description"
+      content="Experienced dentist specializing in therapy and surgery. Book your appointment online."
+    />
+    <meta
+      name="twitter:description:ru"
+      content="Опытный стоматолог, специалист по терапии и хирургии. Запишитесь на приём онлайн."
+    />
+    <meta name="twitter:image" content="/images/og-image.jpg" />
+
+    <!-- ✅ Favicon -->
+    <link rel="icon" href="./public/icon .svg" />
+
+    <!-- ✅ Structured Data (Schema.org) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Dentist",
+        "name": "Dr. Anna Gagloeva",
+        "alternateName": "Др. Анна Гаглоева",
+        "url": "https://dr-gagloeva.com",
+        "image": "https://dr-gagloeva.com/images/og-image.jpg",
+        "description": "Professional dentist offering dental therapy and surgery in Russia.",
+        "description:ru": "Профессиональный стоматолог, предоставляющий терапевтические и хирургические услуги в России.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Moscow",
+          "addressCountry": "Russia"
+        },
+        "telephone": "+79858889825"
+      }
+    </script>
+
+    <!-- ✅ Language-Specific Title for Dynamic React Pages -->
+    <script>
+      document.title =
+        window.location.pathname.includes("/ru")
+          ? "Др. Анна Гаглоева — Стоматолог в России"
+          : "Dr. Anna Gagloeva — Dentist in Russia";
+    </script>
   </head>
+
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
