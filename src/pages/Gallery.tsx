@@ -10,6 +10,10 @@ import before3 from "../assets/BA/b3.jpg";
 import after3 from "../assets/BA/a3.jpg";
 import before4 from "../assets/BA/b4.jpg";
 import after4 from "../assets/BA/a4.jpg";
+import before5 from "../assets/BA/b5.jpg";
+import after5 from "../assets/BA/a5.jpg"; 
+import before6 from "../assets/BA/b6.jpg";
+import after6 from "../assets/BA/a6.jpg";
 
 const Gallery: React.FC = () => {
   const { t } = useTranslation();
@@ -39,6 +43,18 @@ const Gallery: React.FC = () => {
       before: before4,
       after: after4,
       title: t("pages.gallery.case4.title"),
+    },
+    {
+      id: 5,
+      before: before5,  
+      after: after5,
+      title: t("pages.gallery.case5.title"),
+    },
+    {
+      id: 6,
+      before: before6,    
+      after: after6,
+      title: t("pages.gallery.case6.title"),
     },
    
   ];

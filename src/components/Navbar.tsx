@@ -13,8 +13,8 @@ const Navbar: React.FC = () => {
       <div className="text-center text-sm bg-sky-500/70 p-2 flex flex-col sm:flex-row justify-center sm:justify-center items-center space-y-1 sm:space-y-0 sm:space-x-4">
         <div className="flex items-center space-x-1 text-white">
           <Phone size={16} />
-          <a href={`tel:${t("site.phone")}`} className="hover:underline">
-            {t("site.phone")}
+          <a href={`tel:${t("pages.contact.phone")}`} className="hover:underline">
+            {t("pages.contact.phone")}
           </a>
         </div>
 

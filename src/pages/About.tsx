@@ -14,6 +14,14 @@ import cert9 from   "../assets/cert/c9.jpeg";
 import cert10 from "../assets/cert/c10.jpeg";  
 import cert11 from "../assets/cert/c11.jpeg";
 import cert12 from "../assets/cert/c12.jpeg";  
+import cert13 from "../assets/cert/c13.jpeg";
+import cert14 from "../assets/cert/c14.jpeg";  
+import cert15 from "../assets/cert/c15.jpeg";   
+import cert16 from "../assets/cert/c16.jpeg";
+import cert17 from "../assets/cert/c17.jpeg";  
+import cert18 from "../assets/cert/c18.jpeg";   
+import cert19 from "../assets/cert/c19.jpeg";  
+
 
 // ... import all 12 certificates
 
@@ -36,6 +44,14 @@ const About: React.FC = () => {
     { id: 10, image: cert10, title: "Certificate 10" },
     { id: 11, image: cert11, title: "Certificate 11" },
     { id: 12, image: cert12, title: "Certificate 12" },
+    { id: 13, image: cert13, title: "Certificate 13" },
+    { id: 14, image: cert14, title: "Certificate 14" },
+    { id: 15, image: cert15, title: "Certificate 15" },
+    { id: 16, image: cert16, title: "Certificate 16" },
+    { id: 17, image: cert17, title: "Certificate 17" },
+    { id: 18, image: cert18, title: "Certificate 18" },
+    { id: 19, image: cert19, title: "Certificate 19" },
+
   ];
 
   const [selectedCert, setSelectedCert] = React.useState<number | null>(null);
@@ -53,17 +69,17 @@ const About: React.FC = () => {
           />
 
           <div className="p-4 sm:p-5 text-center">
-            <h2 className="text-lg sm:text-xl font-semibold text-gray-300 mb-2">
+            <h2 className="text-lg sm:text-xl font-semibold text-white mb-2">
               {t("site.title")}
             </h2>
-            <p className="text-gray-300 text-sm sm:text-base">
+            <p className="text-white text-sm sm:text-base">
               {t("pages.about.position")}
             </p>
           </div>
         </div>
 
         {/* Text Content */}
-        <div className="flex-1 text-center lg:text-left">
+        <div className="flex-1 text-center lg:text-left font-bold">
           <p className="text-sm sm:text-base lg:text-lg whitespace-pre-line leading-relaxed">
             {t("pages.about.content")}
           </p>

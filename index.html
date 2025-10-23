@@ -6,9 +6,9 @@
 
     <!-- ✅ Canonical და Hreflang -->
     <link rel="canonical" href="https://dr-gagloeva.com" />
-    <link rel="alternate" href="https://dr-gagloeva.com/" hreflang="en" />
-    <link rel="alternate" href="https://dr-gagloeva.com/ru" hreflang="ru" />
-    <link rel="alternate" href="https://dr-gagloeva.com" hreflang="x-default" />
+    <link rel="alternate" href="https://annagagloeva.ru" hreflang="en" />
+    <link rel="alternate" href="https://annagagloeva.ru" hreflang="ru" />
+    <link rel="alternate" href="https://annagagloeva.ru" hreflang="x-default" />
 
     <!-- ✅ English SEO -->
     <title>Dr. Anna Gagloeva — Dentist in Russia | Dental Therapy & Surgery</title>
@@ -37,9 +37,9 @@
       property="og:description:ru"
       content="Качественная стоматологическая помощь от доктора Анны Гаглоевой — специалиста по терапии и хирургии."
     />
-    <meta property="og:image" content="/images/og-image.jpg" />
+
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://dr-gagloeva.com" />
+    <meta property="og:url" content="https://annagagloeva.ru" />
 
     <!-- ✅ Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
@@ -53,10 +53,15 @@
       name="twitter:description:ru"
       content="Опытный стоматолог, специалист по терапии и хирургии. Запишитесь на приём онлайн."
     />
-    <meta name="twitter:image" content="/images/og-image.jpg" />
+   
 
     <!-- ✅ Favicon -->
-    <link rel="icon" href="./public/icon .svg" />
+   
+   <!-- SVG favicon -->
+<link rel="icon" href="/icon.svg" type="image/svg+xml" sizes="any">
+<link rel="icon" href="/icon.png" type="image/png" sizes="32x32">
+
+
 
     <!-- ✅ Structured Data (Schema.org) -->
     <script type="application/ld+json">
@@ -65,8 +70,8 @@
         "@type": "Dentist",
         "name": "Dr. Anna Gagloeva",
         "alternateName": "Др. Анна Гаглоева",
-        "url": "https://dr-gagloeva.com",
-        "image": "https://dr-gagloeva.com/images/og-image.jpg",
+        "url": "https://annagagloeva.ru",
+        "image": "https://annagagloeva.ru/icon.svg",
         "description": "Professional dentist offering dental therapy and surgery in Russia.",
         "description:ru": "Профессиональный стоматолог, предоставляющий терапевтические и хирургические услуги в России.",
         "address": {
@@ -90,5 +95,20 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <!-- Top.Mail.Ru counter -->
+<script type="text/javascript">
+var _tmr = window._tmr || (window._tmr = []);
+_tmr.push({id: "3711292", type: "pageView", start: (new Date()).getTime()});
+(function (d, w, id) {
+  if (d.getElementById(id)) return;
+  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+  ts.src = "https://top-fwz1.mail.ru/js/code.js";
+  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window, "tmr-code");
+</script>
+<noscript><div><img src="https://top-fwz1.mail.ru/counter?id=3711292;js=na" style="position:absolute;left:-9999px;" alt="Top.Mail.Ru" /></div></noscript>
+<!-- /Top.Mail.Ru counter -->
+
   </body>
 </html>

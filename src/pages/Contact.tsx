@@ -18,15 +18,17 @@ const Contact: React.FC = () => {
 
       {/* Contact Card */}
       <div className="bg-gray-800 p-6 rounded-2xl shadow-md w-full max-w-8xl ">
-        <h3 className="text-xl font-bold text-gray-100 mb-4 text-center">
+        <h3 className="text-xl font-bold text-white mb-4 text-center">
           {t("site.title")}
         </h3>
 
-        <ul className="space-y-3 text-gray-700 dark:text-gray-300">
+        <ul className="space-y-3 text-white">
           <li className="flex items-center gap-3">
             <Phone className="text-teal-600" />
-            <a 
-            href={`tel:${t("pages.contact.phone")}`} className="hover:underline">
+            <a
+              href={`tel:${t("pages.contact.phone")}`}
+              className="hover:underline"
+            >
               {t("pages.contact.phone")}
             </a>
           </li>
@@ -89,6 +91,14 @@ const Contact: React.FC = () => {
 
      
       </div>
+
+       
+
+
+
+
+
+
     </div>
   );
 };

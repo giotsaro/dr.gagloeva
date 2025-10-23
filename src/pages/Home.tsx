@@ -7,8 +7,8 @@ import image1 from "../assets/s-1.png";
 import image4 from "../assets/s-4.png";
 import image5 from "../assets/s-5.png";
 import bgImage from "../assets/bg-2.jpg";
-import b4 from "../assets/BA/b4.jpg";
-import a4 from "../assets/BA/a4.jpg";
+import b6 from "../assets/BA/b6.jpg";
+import a6 from "../assets/BA/a6.jpg";
 
 const Home: React.FC = () => {
   const { t } = useTranslation();
@@ -31,7 +31,7 @@ const Home: React.FC = () => {
       >
         {/* Left Content */}
         <div className="max-w-xl text-center md:text-left">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-200 leading-snug">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-snug">
             {t("hero.title")}
           </h1>
          
@@ -85,6 +85,12 @@ const Home: React.FC = () => {
 
 
 <ul className="space-y-2 text-teal-800">
+    <li className="flex items-center gap-2">
+    <FaPhone className="text-xl text-gray-700" />
+    <a href={`tel:${t("pages.contact.phone")}`} className="hover:underline">
+      {t("pages.contact.phone")}
+    </a>
+  </li>
   <li className="flex items-center gap-2">
     <FaTelegram className="text-2xl text-sky-600" />
     <a
@@ -99,7 +105,7 @@ const Home: React.FC = () => {
   <li className="flex items-center gap-2">
     <FaWhatsapp className="text-2xl text-green-600" />
     <a
-      href="https://wa.me/79858889825"
+      href={t("pages.contact.whatsapp")}
       target="_blank"
       rel="noopener noreferrer"
       className="hover:underline"
@@ -107,16 +113,11 @@ const Home: React.FC = () => {
       WhatsApp
     </a>
   </li>
-  <li className="flex items-center gap-2">
-    <FaPhone className="text-xl text-gray-700" />
-    <a href="tel:+79858889825" className="hover:underline">
-      +7 985 888-98-25
-    </a>
-  </li>
+
   <li className="flex items-center gap-2">
     <LuMail  className="text-xl text-gray-700" />
-    <a href="mailto:Anna.gagloeva.94@mail.ru" className="hover:underline">
-      Anna.gagloeva.94@mail.ru
+    <a href={`mailto:${t("pages.contact.email")}`} className="hover:underline">
+      {t("pages.contact.email")}
     </a>
   </li>
 </ul>
@@ -148,12 +149,12 @@ const Home: React.FC = () => {
   {/* Images */}
   <div className="flex gap-3 justify-center mb-4">
     <img
-      src={b4}
+      src={b6}
       alt="Gallery photo 1"
       className="w-1/2 h-32 object-cover rounded-xl shadow-sm hover:opacity-90 transition"
     />
     <img
-      src={a4}
+      src={a6}
       alt="Gallery photo 2"
       className="w-1/2 h-32 object-cover rounded-xl shadow-sm hover:opacity-90 transition"
     />
@@ -179,21 +180,17 @@ const Home: React.FC = () => {
           "@context": "https://schema.org",
           "@type": "Dentist",
           "name": "Dr. Anna Gagloeva",
-          "url": "https://yourwebsite.com",
-          "logo": "https://yourwebsite.com/logo.png",
+          "url": "https://annagagloeva.ru",
+          "logo": "https://annagagloeva.ru/icon.svg",
           "description": t("pages.about.content"),
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "Your Street",
-            "addressLocality": "City",
+            "addressLocality": "moscow",
             "postalCode": "00000",
-            "addressCountry": "Country"
+            "addressCountry": "russia"
           },
-          "telephone": "+1800600380",
-          "sameAs": [
-            "https://www.facebook.com/yourpage",
-            "https://www.instagram.com/yourprofile"
-          ]
+          "telephone": "+79858889825"
         })
       }} />
     </div>

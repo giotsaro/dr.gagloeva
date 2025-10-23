@@ -14,30 +14,30 @@
           "after": "After",
           "case1": {
              "title": "Ultrasonic Teeth Cleaning"
-           
           },
           "case2": {
               "title": "Modern Treatment of Medium and Deep Caries under the Control of an Operating Microscope with Subsequent Artistic Restorations"           
           },
           "case3": {
               "title": "Caries Treatment. Work Completed in One Visit"
-           
           },
           "case4": {
-              "title": "Treatment of Pulpitis with Preservation of the Tooth Structure"
-           
+              "title": "Restoration of the Anterior Group of Teeth"
+          },
+          "case5": {
+              "title": ""
+          },  
+          "case6": {
+              "title": ""
           }
-          
         },
         "contact": {
           "title": "Contact",
           "content": "Get in touch with us for dental appointments and consultations.",
-          "phone": "+7 985 888-98-25",
+         "phone": "+7 (916) 317-18-88",
           "telegram": "https://t.me/dr_anna_gagloeva",
-          "whatsapp": "https://wa.me/79858889825",
+          "whatsapp": "https://wa.me/79163171888",
           "email": "Anna.gagloeva.94@mail.ru"
-
-
         },
         "about": {
           "title": "About the Doctor",
@@ -46,19 +46,19 @@
           "position": "Dentist-therapist, dental surgeon",
           "courses": [
             "April 26–27, 2019 – Participation in the international congress ENDOPOINT, Moscow (12 C.E. credit points).",
-              "January 28–29, 2019 – Two-day practical endodontics course “Endo. Daily Practice.” Author: Yuri Kocharov.",
-              "March 31, 2018 – Participated in the Bleach-n-Smile Whitening Championship.",
-              "March 30, 2018 – Master class: “Rubber dam — starting point in a dentist’s daily work.”",
-              "March 27, 2018 – Master class: “Caries infiltration technique, Icone Infiltration Concept.”",
-              "March 27, 2018 – Course: “ICONE – Infiltration Concept (Caries infiltration technique).”",
-              "March 23, 2018 – Course: “Kofferdam.”",
-              "March 19, 2018 – Master class: “Use of professional clinical tooth whitening system KLOX.”",
-              "March 3, 2018 – Master class: “Subjective–objective endodontics.” Author: A.V. Tumashevich.",
-              "March 2, 2018 – Master class: “Subjective–objective endodontics. Common questions — simple solutions.” Author: A.V. Tumashevich.",
-              "February 17, 2018 – Course: “Tooth restoration using posts. Dual-cure composite cements. Restoration of occlusal surfaces of molars. Direct technique for ceramic chip restoration (Reveener).”",
-              "February 16, 2018 – Master class: “Direct restoration of anterior teeth. Aesthetics, morphology, and function — keys to success.” Author: D. Yu. Kapylov.",
-               "September 21, 2017 – Participation in the 8th National Festival of Dental Implantation. Master class: “Peri-implantitis: causes, prevention, and treatment.”",
-              "July 21, 2017 – Course: “Whitening before restoration. How to combine tooth whitening and restoration.”"
+            "January 28–29, 2019 – Two-day practical endodontics course Endo. Daily Practice. Author: Yuri Kocharov.",
+            "March 31, 2018 – Participated in the Bleach-n-Smile Whitening Championship.",
+            "March 30, 2018 – Master class: Rubber dam — starting point in a dentist's daily work.",
+            "March 27, 2018 – Master class: Caries infiltration technique, Icone Infiltration Concept.",
+            "March 27, 2018 – Course: ICONE – Infiltration Concept (Caries infiltration technique).",
+            "March 23, 2018 – Course: Kofferdam.",
+            "March 19, 2018 – Master class: Use of professional clinical tooth whitening system KLOX.",
+            "March 3, 2018 – Master class: Subjective–objective endodontics. Author: A.V. Tumashevich.",
+            "March 2, 2018 – Master class: Subjective–objective endodontics. Common questions — simple solutions. Author: A.V. Tumashevich.",
+            "February 17, 2018 – Course: Tooth restoration using posts. Dual-cure composite cements. Restoration of occlusal surfaces of molars. Direct technique for ceramic chip restoration (Reveener).",
+            "February 16, 2018 – Master class: Direct restoration of anterior teeth. Aesthetics, morphology, and function — keys to success. Author: D. Yu. Kapylov.",
+            "September 21, 2017 – Participation in the 8th National Festival of Dental Implantation. Master class: Peri-implantitis: causes, prevention, and treatment.",
+            "July 21, 2017 – Course: Whitening before restoration. How to combine tooth whitening and restoration."
           ],
           "coursesTitle": "Courses & Certificates"
         }
@@ -67,10 +67,8 @@
         "title": "Dr. Anna Gagloeva",
         "subtitle": "Family Dental Care & Dentistry",
         "footer": "© {{year}} Dr. Anna Gagloeva. All rights reserved.",
-        "phone": "+7 985 888-98-25",
+       
         "address": "Gospitalny Val St 5 bldg 7, Moscow, Russia"
-      
-        
       },
       "hero": {
         "title": "Professional Family Dental Care",
@@ -86,12 +84,12 @@
           "btn": "About the Doctor"
         },
         "card2": {
-          "title": "Do you want to make a dental appointment",
+          "title": "Want to Make an Appointment?",
           "desc": "Book your dental appointment easily online.",
-          "btn": "Book Now"
+          "btn": "Contact Us"
         },
         "card3": {
-          "title": "Opening Hours",
+          "title": "Gallery of Works",
           "desc": "Monday – Friday \nSaturday – Sunday",
           "btn": "see more"
         }
@@ -105,31 +103,36 @@
           "title": "Главная",
           "content": "Добро пожаловать в клинику Др. Гаглоевой. Мы предоставляем профессиональные стоматологические и семейные стоматологические услуги."
         },
-       "gallery": {
-           "title": "Галерея работ",
-           "content": "До и после лечения",
-           "before": "До",
-           "after": "После",
-           "case1": {
-             "title": "Ультразвуковая чистка зубов."
-      
-           },
-           "case2": {
-             "title": "Современное лечение среднего и глубокого кариеса под контролем операционного микроскопа с последующими художественными реставрациями"
-           },
-            "case3": {
-              "title": "Лечение кариеса. Работа выполнена в одно посещение."
-            },  
-            "case4": {
-              "title": "Лечение пульпита с сохранением зуба."
-            }
+        "gallery": {
+          "title": "Галерея работ",
+          "content": "До и после лечения",
+          "before": "До",
+          "after": "После",
+          "case1": {
+            "title": "Ультразвуковая чистка зубов."
+          },
+          "case2": {
+            "title": "Современное лечение среднего и глубокого кариеса под контролем операционного микроскопа с последующими художественными реставрациями"
+          },
+          "case3": {
+            "title": "Лечение кариеса. Работа выполнена в одно посещение."
+          },  
+          "case4": {
+            "title": "Реставрация фронтальных группа Зубов."
+          },
+          "case5": {
+            "title": ""
+          },  
+          "case6": {
+            "title": ""
+          }
         },
         "contact": {
           "title": "Контакты",
           "content": "Свяжитесь с нами для записи на стоматологические приемы и консультации.",
-          "phone": "+7 985 888-98-25",
+          "phone": "+7 (916) 317-18-88",
           "telegram": "https://t.me/dr_anna_gagloeva",
-          "whatsapp": "https://wa.me/79858889825",
+          "whatsapp": "https://wa.me/79163171888",
           "email": "Anna.gagloeva.94@mail.ru"
         },
         "about": {
@@ -139,20 +142,19 @@
           "position": "Стоматолог-терапевт, стоматолог-хирург",
           "courses": [
             "26–27.04.2019 – Международный конгресс ENDOPOINT, Москва (12 зачётных единиц).",
-              "28–29.01.2019 – Двухдневный практический курс по эндодонтии «Endo. Повседневная практика». Автор: Юрий Кочаров.",
-              "31.03.2018 – Участие в чемпионате по отбеливанию Bleach-n-Smile.",
-              "30.03.2018 – Мастер-класс: «Раббердам – как старт в ежедневной работе врача-стоматолога».",
-              "27.03.2018 – Мастер-класс: «Методика инфильтрации кариеса, метод Icone Infiltration Concept».",
-              "27.03.2018 – Курс: «ICONE – Infiltration Concept (Методика инфильтрации кариеса)».",
-              "23.03.2018 – Курс по теме: «Kofferdam».",
-              "19.03.2018 – Мастер-класс по использованию профессиональной клинической системы отбеливания зубов KLOX.",
-              "03.03.2018 – Мастер-класс: «Субъективно–объективная эндодонтия». Автор: Тумашевич А.В.",
-              "02.03.2018 – Мастер-класс: «Субъективно–объективная эндодонтия. Частые вопросы – простые решения». Автор: Тумашевич А.В.",
-              "17.02.2018 – Курс: «Восстановление зубов с помощью штифтов. Композитные цементы двойного отверждения. Реставрация окклюзионной поверхности жевательных зубов. Реставрация керамических сколов в прямой технике Reveener».",
-              "16.02.2018 – Мастер-класс: «Прямая реставрация передних зубов. Эстетика, морфология, функции – ключи к успеху». Автор: Капылов Д.Ю.",
-               "21.09.2017 – Участие в 8-м национальном фестивале дентальной имплантации. Мастер-класс: «Периимплантит: причины, профилактика, лечение».",
-              "21.07.2017 – Курс: «Отбеливание перед реставрацией. Как сочетать отбеливание и реставрацию зубов»."
-            
+            "28–29.01.2019 – Двухдневный практический курс по эндодонтии «Endo. Повседневная практика». Автор: Юрий Кочаров.",
+            "31.03.2018 – Участие в чемпионате по отбеливанию Bleach-n-Smile.",
+            "30.03.2018 – Мастер-класс: «Раббердам – как старт в ежедневной работе врача-стоматолога».",
+            "27.03.2018 – Мастер-класс: «Методика инфильтрации кариеса, метод Icone Infiltration Concept».",
+            "27.03.2018 – Курс: «ICONE – Infiltration Concept (Методика инфильтрации кариеса)».",
+            "23.03.2018 – Курс по теме: «Kofferdam».",
+            "19.03.2018 – Мастер-класс по использованию профессиональной клинической системы отбеливания зубов KLOX.",
+            "03.03.2018 – Мастер-класс: «Субъективно–объективная эндодонтия». Автор: Тумашевич А.В.",
+            "02.03.2018 – Мастер-класс: «Субъективно–объективная эндодонтия. Частые вопросы – простые решения». Автор: Тумашевич А.В.",
+            "17.02.2018 – Курс: «Восстановление зубов с помощью штифтов. Композитные цементы двойного отверждения. Реставрация окклюзионной поверхности жевательных зубов. Реставрация керамических сколов в прямой технике Reveener».",
+            "16.02.2018 – Мастер-класс: «Прямая реставрация передних зубов. Эстетика, морфология, функции – ключи к успеху». Автор: Капылов Д.Ю.",
+            "21.09.2017 – Участие в 8-м национальном фестивале дентальной имплантации. Мастер-класс: «Периимплантит: причины, профилактика, лечение».",
+            "21.07.2017 – Курс: «Отбеливание перед реставрацией. Как сочетать отбеливание и реставрацию зубов»."
           ],
           "coursesTitle": "Курсы и сертификаты"
         }
@@ -161,7 +163,7 @@
         "title": "Др. Анна Гаглоева",
         "subtitle": "Семейная стоматология и стоматологические услуги",
         "footer": "© {{year}} Др. Анна Гаглоева. Все права защищены.",
-          "phone": "+7 985 888-98-25",
+       
         "address": "улица Госпитальный вал 5 c 7, Москва, Россия"
       },
       "hero": {
